@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: rgb(221, 221, 221);
+}
+.info{
+    background-color: rgb(38, 139, 190);
+    height: 50px;
+}
+.call{
+    width: 100%;
+    padding: 10px;
+    padding-left: 100px;
+    color: white;
+}
+.info>div>div{
+    display: inline-block;
+}
+.info>div>img{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(38, 139, 190);
+    border-radius: 50%;
+}
+.container{
+    padding:30px ;
+    text-align: center;
+    padding-left: 500px;
+}
+ul>li{
+    list-style: none;
+    display: inline-block !important;
+    font-size: 20px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block !important;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+h3{
+    padding-left: 100px;
+}
+.btn{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+.btn-1{
+    margin-left: 100px;
+    border: 1px solid rgb(38, 139, 190);
+    background-color: rgb(38, 139, 190);
+}
+.btn-2{
+    border: 1px solid  rgb(38, 139, 190);
+    margin-left: 10px;
+    color: rgb(38, 139, 190);
+}
+.btn-1:hover{
+    color: white;
+    box-shadow:3px 3px  white;
+}
+.btn-2:hover{
+    color: rgb(38, 139, 190);
+    background-color: white;
+    box-shadow: 3px 3px rgb(38, 139, 190);
+}
+.amar{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+
+}
+.d{
+    width: 250px;
+    height: 100px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: white;
+    display: inline-block;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.d-1{
+    color: rgb(38, 139, 190);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px;
+    padding-left: 20px;
+    justify-self: center;
+    display: inline-block;
+    padding-right: 5px;
+}
+.d-2{
+    display: inline-block;
+    color: rgb(184, 183, 183);
+    padding-top: 20px;
+}
+.logo{
+    float: right;
+    margin-right:20px ;
+}
+.logo>i{
+    margin-right: 10px;
+}
+.title{
+    margin-top: 40px;
+    margin-left: 150px;
+    display: inline;
+}
+.dd{
+    background-color: rgb(38, 139, 190);
+    width: 7px;
+    height: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.title .spn1{
+    position: absolute;
+    margin-left: 15px;
+    font-weight: bolder;
+    margin-top: 33px;
+}
+.spn2{
+    margin-left: 15px;
+    color: rgb(38, 139, 190);
+    font-weight: bolder;
+    font-size: 25px;
+}
+.p{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 400px;
+    
+}
+.p p{
+    margin: 0px;
+}
+.about{
+    height: 400px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: inline-block;
+    
+}
+.p{
+    font-weight: 400;
+    display: block;
+}
+.line{
+    width: 20px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    
+}
+.buton{
+    margin-left: 150px;
+    background-color:rgb(38, 139, 190) ;
+    transition:all 0.5s;
+    height: 40px;
+}
+.boldd{
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 0px;
+    padding-left:8px;
+    padding-right: 8px;
+    height: 40px;
+
+}
+.buton:hover{
+    color: white;
+    background-color:rgb(9, 91, 132) ;
+}
+.video{
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 200px;
+    width: 450px;
+    height: 300px;
+}
+.video video{
+    height: inherit;
+    border-radius: 20px;
+
+    border-top: 15px rgb(38, 139, 190) solid;
+    border-right: 8px rgb(38, 139, 190) solid;
+    
+}
+@media screen and (max-width:1320px) {
+    .d{
+        margin-right: 20px;
+    }
+    .video{
+        position: relative;
+        top: 40px;
+        right: 100px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        padding: 15px;
+        padding-left: 300px;
+    }
+    .d{
+        width: 200px;
+        height: 80px;
+    }
+    .d-1{
+        font-size: 25px;
+        padding-left: 15px;
+        padding: 5px;
+    }
+    .buton{
+        margin-left: 50px;
+    }
+    .title{
+        margin-left: 50px;
+    }
+    .p{
+        margin-left: 50px;
+    }
+  
+}
+@media screen and (max-width:1000px)
+{
+    .amar{
+        padding-left: 30px;
+    }
+    .container{
+        padding-left: 180px;
+    }
+    .call{
+        padding-left: 30px;
+    }
+    h3{
+        padding-left: 30px;
+    }
+    .btn-1{
+        margin-left: 30px;
+    }
+    .video{
+        width: 330px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:925px) {
+    .d{
+        width: 270px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    .amar{
+        padding-left: 100px;
+    }
+    .d-1{
+        font-size: 40px;
+    }
+    .video{
+        width: 200px;
+        height: 175px;
+        margin-right: 10px;
+    }
+    .p{
+        width: 300px;
+        margin-left: 15px;
+    }
+    .buton{
+        margin-left: 15px;
+    }
+    .title{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width:770px) {
+    .container{
+        padding-left: 30px;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .d{
+        width: 180px;
+        height: 90px;
+    }
+    .d-1{
+        font-size: 25px;
+    }
+    ul>li{
+        padding-left: 10px;
+    }
+    .amar{
+        padding-left: 30px;
+    }
+    .video{
+        display: none;
+    }
+    .p{
+        margin-left: 35px;
+    }
+    .buton{
+        margin-left: 35px;
+    }
+    .title{
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width:425px){
+    .h3{
+        font-size: 20px;
+    }
+    ul>li{
+        font-size: 15px;
+    }
+    .container{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:375px)
+{
+    .p{
+        margin-left: 15px;
+        width: 250px;
+    }
+    .buton{
+        margin-left: 15px;
+    }
+    .title{
+        margin-left: 15px;
+    }
+}
